@@ -1,0 +1,68 @@
+{
+  "vishalkumar@m365x65088219.onmicrosoft.com": {
+    "email": "vishalkumar@m365x65088219.onmicrosoft.com",
+    "lastPostedDate": "2025-03-07T11:23:31.471Z",
+    "meetings": [
+      {
+        "id": "vishalkumar@m365x65088219.onmicrosoft.com_Time zone fix meeting_Time zone fix meeting_2025-01-31T11:24:00.0000000",
+        "subject": "Time zone fix meeting",
+        "meetingDate": "2025-01-31T11:24:00.0000000",
+        "postedDate": "2025-02-12T07:27:42.534Z"
+      },
+      {
+        "id": "vishalkumar@m365x65088219.onmicrosoft.com_Test meeting-for Universal Music Group_Test meeting-for Universal Music Group_2025-01-29T22:39:00.0000000",
+        "subject": "Test meeting-for Universal Music Group",
+        "meetingDate": "2025-01-29T22:39:00.0000000",
+        "postedDate": "2025-02-12T07:54:50.048Z"
+      },
+      {
+        "id": "vishalkumar@m365x65088219.onmicrosoft.com_Meeting for UMG discussion_Meeting for UMG discussion_2025-01-29T10:48:00.0000000",
+        "subject": "Meeting for UMG discussion",
+        "meetingDate": "2025-01-29T10:48:00.0000000",
+        "postedDate": "2025-02-12T09:31:07.799Z"
+      },
+      {
+        "id": "vishalkumar@m365x65088219.onmicrosoft.com_WD CALL_WD CALL_2025-01-22T04:00:00.0000000",
+        "subject": "WD CALL",
+        "meetingDate": "2025-01-22T04:00:00.0000000",
+        "postedDate": "2025-02-12T09:32:40.046Z"
+      },
+      {
+        "id": "vishalkumar@m365x65088219.onmicrosoft.com_WD call_WD call_2025-01-22T09:30:00.0000000",
+        "subject": "WD call",
+        "meetingDate": "2025-01-22T09:30:00.0000000",
+        "postedDate": "2025-02-12T09:32:42.362Z"
+      },
+      {
+        "id": "vishalkumar@m365x65088219.onmicrosoft.com_time zone_time zone_2025-01-23T11:50:00.0000000",
+        "subject": "time zone",
+        "meetingDate": "2025-01-23T11:50:00.0000000",
+        "postedDate": "2025-02-12T09:34:33.297Z"
+      },
+      {
+        "id": "vishalkumar@m365x65088219.onmicrosoft.com_Test unmatched meeting_Test unmatched meeting_2025-03-07T10:30:00.0000000",
+        "subject": "Test unmatched meeting ",
+        "meetingDate": "2025-03-07T10:30:00.0000000",
+        "postedDate": "2025-03-07T11:10:21.876Z"
+      },
+      {
+        "id": "vishalkumar@m365x65088219.onmicrosoft.com_WD CALL umg_WD CALL umg_2025-03-07T04:30:00.0000000",
+        "subject": "WD CALL umg",
+        "meetingDate": "2025-03-07T04:30:00.0000000",
+        "postedDate": "2025-03-07T11:23:31.471Z"
+      }
+    ]
+  },
+  "ramesh@m365x65088219.onmicrosoft.com": {
+    "email": "ramesh@m365x65088219.onmicrosoft.com",
+    "lastPostedDate": "2025-03-07T06:33:40.446Z",
+    "meetings": [
+      {
+        "id": "ramesh@m365x65088219.onmicrosoft.com_umg meeting_umg meeting_2025-03-06T11:00:00.0000000",
+        "subject": "umg meeting",
+        "meetingDate": "2025-03-06T11:00:00.0000000",
+        "postedDate": "2025-03-07T06:33:40.445Z"
+      }
+    ]
+  }
+}

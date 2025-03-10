@@ -1,0 +1,53 @@
+{
+  "meetings": [
+    {
+      "meetingId": "AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAA5egekAAA=",
+      "userId": "ramesh@m365x65088219.onmicrosoft.com",
+      "timeEntry": {
+        "personid": 421198,
+        "status": "Created",
+        "code": 201,
+        "time": {
+          "id": "106391729",
+          "projectid": "1419028",
+          "moduleid": "549079",
+          "taskid": "16471832",
+          "worktypeid": "801197",
+          "personid": "421198",
+          "date": "2025-02-19",
+          "datemodified": "2025-02-20 12:04:02",
+          "time": "0.1",
+          "description": "Sandisk API Test",
+          "billable": "t",
+          "worktype": "India-Meeting",
+          "milestoneid": null,
+          "ogmilestoneid": null,
+          "module": "Development"
+        }
+      },
+      "rawResponse": {
+        "personid": 421198,
+        "status": "Created",
+        "code": 201,
+        "time": {
+          "id": "106391729",
+          "projectid": "1419028",
+          "moduleid": "549079",
+          "taskid": "16471832",
+          "worktypeid": "801197",
+          "personid": "421198",
+          "date": "2025-02-19",
+          "datemodified": "2025-02-20 12:04:02",
+          "time": "0.1",
+          "description": "Sandisk API Test",
+          "billable": "t",
+          "worktype": "India-Meeting",
+          "milestoneid": null,
+          "ogmilestoneid": null,
+          "module": "Development"
+        }
+      },
+      "postedAt": "2025-02-20T12:04:02.741Z"
+    }
+  ]
+}

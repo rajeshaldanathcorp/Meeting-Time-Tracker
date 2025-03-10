@@ -1,0 +1,1566 @@
+#Meeting fetch Raw Data:
+
+Fetching meetings for user: ramesh@m365x65088219.onmicrosoft.com
+Fetching meetings between: 2025-02-14T05:06:07.125Z and 2025-02-21T05:06:07.125Z
+Fetching meetings from URL: https://graph.microsoft.com/v1.0/users/ramesh@m365x65088219.onmicrosoft.com/events?$filter=start%2FdateTime%20ge%20'2025-02-14T05%3A06%3A07.125Z'%20and%20end%2FdateTime%20le%20'2025-02-21T05%3A06%3A07.125Z'&$select=id,subject,start,end,organizer,attendees,bodyPreview,importance,isAllDay,isCancelled,categories,onlineMeeting&$orderby=start/dateTime desc
+Received meetings data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('ramesh%40m365x65088219.onmicrosoft.com')/events(id,subject,start,end,organizer,attendees,bodyPreview,importance,isAllDay,isCancelled,categories,onlineMeeting)",
+  "value": [
+    {
+      "@odata.etag": "W/\"5HnrQBVBdkuKwlSrqNOikAAAOXiyhw==\"",
+      "id": "AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAA5igdwAAA=",
+      "categories": [],
+      "subject": "Sandisk Server Setup",
+      "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 277 588 441 993\r\nPasscode: CN2SB6i9\r\n________________________________\r\nDial in by phone\r\n+1 872-215-6291,",
+      "importance": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "start": {
+        "dateTime": "2025-02-20T23:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2025-02-21T00:00:00.0000000",
+        "timeZone": "UTC"
+      },
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Ramesh",
+          "address": "ramesh@M365x65088219.onmicrosoft.com"
+        }
+      },
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGJlODRjZWEtMzk4OS00ZTU2LTk5OWMtOTViNGYwYmM0ZWMx%40thread.v2/0?context=%7b%22Tid%22%3a%22a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a%22%2c%22Oid%22%3a%2282a651eb-8089-49f4-8129-5e94af5389b1%22%7d",
+        "conferenceId": "465893486",
+        "tollNumber": "+1 872-215-6291"
+      }
+    },
+    {
+      "@odata.etag": "W/\"5HnrQBVBdkuKwlSrqNOikAAAOXi0ZQ==\"",
+      "id": "AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAA5igdyAAA=",
+      "categories": [],
+      "subject": "Sandisk hardisk plate change",
+      "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 220 571 702 446\r\nPasscode: 8ES2Sx7j\r\n________________________________\r\nDial in by phone\r\n+1 872-215-6291,",
+      "importance": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "start": {
+        "dateTime": "2025-02-20T00:00:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2025-02-20T00:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Ramesh",
+          "address": "ramesh@M365x65088219.onmicrosoft.com"
+        }
+      },
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTk2ZjM1MTMtOGM4ZC00MTIzLTk2NDAtMjRiOTVlNjU3NmVm%40thread.v2/0?context=%7b%22Tid%22%3a%22a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a%22%2c%22Oid%22%3a%2282a651eb-8089-49f4-8129-5e94af5389b1%22%7d",
+        "conferenceId": "775341000",
+        "tollNumber": "+1 872-215-6291"
+      }
+    },
+    {
+      "@odata.etag": "W/\"5HnrQBVBdkuKwlSrqNOikAAAOWk7jQ==\"",
+      "id": "AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAA5egekAAA=",
+      "categories": [],
+      "subject": "Sandisk API Test",
+      "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 240 569 456 929\r\nPasscode: bx3o86co\r\n________________________________\r\nDial in by phone\r\n+1 872-215-6291,",
+      "importance": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "start": {
+        "dateTime": "2025-02-19T04:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2025-02-19T05:00:00.0000000",
+        "timeZone": "UTC"
+      },
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Ramesh",
+          "address": "ramesh@M365x65088219.onmicrosoft.com"
+        }
+      },
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDZkNDA4MWYtN2Y2NC00NTMzLTk2MzUtODJkOGUxNGMyNGYw%40thread.v2/0?context=%7b%22Tid%22%3a%22a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a%22%2c%22Oid%22%3a%2282a651eb-8089-49f4-8129-5e94af5389b1%22%7d",
+        "conferenceId": "58572547",
+        "tollNumber": "+1 872-215-6291"
+      }
+    }
+  ]
+}
+Found 3 meetings from past 7 days: [
+  {
+    subject: 'Sandisk Server Setup',
+    start: '2025-02-20T23:30:00.0000000',
+    end: '2025-02-21T00:00:00.0000000'
+  },
+  {
+    subject: 'Sandisk hardisk plate change',
+    start: '2025-02-20T00:00:00.0000000',
+    end: '2025-02-20T00:30:00.0000000'
+  },
+  {
+    subject: 'Sandisk API Test',
+    start: '2025-02-19T04:30:00.0000000',
+    end: '2025-02-19T05:00:00.0000000'
+  }
+]
+Decoded URL: https://teams.microsoft.com/l/meetup-join/19:meeting_ZGJlODRjZWEtMzk4OS00ZTU2LTk5OWMtOTViNGYwYmM0ZWMx@thread.v2/0?context={"Tid":"a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a","Oid":"82a651eb-8089-49f4-8129-5e94af5389b1"}
+Extracted Meeting ID: 19:meeting_ZGJlODRjZWEtMzk4OS00ZTU2LTk5OWMtOTViNGYwYmM0ZWMx@thread.v2
+Extracted Organizer ID: 82a651eb-8089-49f4-8129-5e94af5389b1
+Formatted string: 1*82a651eb-8089-49f4-8129-5e94af5389b1*0**19:meeting_ZGJlODRjZWEtMzk4OS00ZTU2LTk5OWMtOTViNGYwYmM0ZWMx@thread.v2
+Base64 Meeting ID: MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aR0psT0RSalpXRXRNems0T1MwMFpUVTJMVGs1T1dNdE9UVmlOR1l3WW1NMFpXTXhAdGhyZWFkLnYy
+Reports data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aR0psT0RSalpXRXRNems0T1MwMFpUVTJMVGs1T1dNdE9UVmlOR1l3WW1NMFpXTXhAdGhyZWFkLnYy')/attendanceReports",
+  "value": [
+    {
+      "id": "1914dad1-610c-4086-9046-fc4d441fd296",
+      "totalParticipantCount": 1,
+      "meetingStartDateTime": "2025-02-20T23:08:05.273Z",
+      "meetingEndDateTime": "2025-02-20T23:30:16.083Z"
+    }
+  ]
+}
+Report ID: 1914dad1-610c-4086-9046-fc4d441fd296
+Records data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aR0psT0RSalpXRXRNems0T1MwMFpUVTJMVGs1T1dNdE9UVmlOR1l3WW1NMFpXTXhAdGhyZWFkLnYy')/attendanceReports('1914dad1-610c-4086-9046-fc4d441fd296')/attendanceRecords",
+  "value": [
+    {
+      "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+      "emailAddress": "ramesh@M365x65088219.onmicrosoft.com",
+      "totalAttendanceInSeconds": 1326,
+      "role": "Organizer",
+      "identity": {
+        "@odata.type": "#microsoft.graph.communicationsUserIdentity",
+        "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+        "displayName": "Ramesh",
+        "tenantId": "a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a"
+      },
+      "attendanceIntervals": [
+        {
+          "joinDateTime": "2025-02-20T23:08:09.117879Z",
+          "leaveDateTime": "2025-02-20T23:30:16.0831491Z",
+          "durationInSeconds": 1326
+        }
+      ]
+    }
+  ]
+}
+Decoded URL: https://teams.microsoft.com/l/meetup-join/19:meeting_NTk2ZjM1MTMtOGM4ZC00MTIzLTk2NDAtMjRiOTVlNjU3NmVm@thread.v2/0?context={"Tid":"a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a","Oid":"82a651eb-8089-49f4-8129-5e94af5389b1"}
+Extracted Meeting ID: 19:meeting_NTk2ZjM1MTMtOGM4ZC00MTIzLTk2NDAtMjRiOTVlNjU3NmVm@thread.v2
+Extracted Organizer ID: 82a651eb-8089-49f4-8129-5e94af5389b1
+Formatted string: 1*82a651eb-8089-49f4-8129-5e94af5389b1*0**19:meeting_NTk2ZjM1MTMtOGM4ZC00MTIzLTk2NDAtMjRiOTVlNjU3NmVm@thread.v2
+Base64 Meeting ID: MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19OVGsyWmpNMU1UTXRPR000WkMwME1USXpMVGsyTkRBdE1qUmlPVFZsTmpVM05tVm1AdGhyZWFkLnYy
+Reports data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19OVGsyWmpNMU1UTXRPR000WkMwME1USXpMVGsyTkRBdE1qUmlPVFZsTmpVM05tVm1AdGhyZWFkLnYy')/attendanceReports",
+  "value": [
+    {
+      "id": "726f5468-6846-447c-8812-81387c37c02d",
+      "totalParticipantCount": 1,
+      "meetingStartDateTime": "2025-02-20T23:35:05.984Z",
+      "meetingEndDateTime": "2025-02-20T23:37:30.997Z"
+    }
+  ]
+}
+Report ID: 726f5468-6846-447c-8812-81387c37c02d
+Records data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19OVGsyWmpNMU1UTXRPR000WkMwME1USXpMVGsyTkRBdE1qUmlPVFZsTmpVM05tVm1AdGhyZWFkLnYy')/attendanceReports('726f5468-6846-447c-8812-81387c37c02d')/attendanceRecords",
+  "value": [
+    {
+      "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+      "emailAddress": "ramesh@M365x65088219.onmicrosoft.com",
+      "totalAttendanceInSeconds": 140,
+      "role": "Organizer",
+      "identity": {
+        "@odata.type": "#microsoft.graph.communicationsUserIdentity",
+        "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+        "displayName": "Ramesh",
+        "tenantId": "a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a"
+      },
+      "attendanceIntervals": [
+        {
+          "joinDateTime": "2025-02-20T23:35:10.1698526Z",
+          "leaveDateTime": "2025-02-20T23:37:30.9971535Z",
+          "durationInSeconds": 140
+        }
+      ]
+    }
+  ]
+}
+Decoded URL: https://teams.microsoft.com/l/meetup-join/19:meeting_ZDZkNDA4MWYtN2Y2NC00NTMzLTk2MzUtODJkOGUxNGMyNGYw@thread.v2/0?context={"Tid":"a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a","Oid":"82a651eb-8089-49f4-8129-5e94af5389b1"}
+Extracted Meeting ID: 19:meeting_ZDZkNDA4MWYtN2Y2NC00NTMzLTk2MzUtODJkOGUxNGMyNGYw@thread.v2
+Extracted Organizer ID: 82a651eb-8089-49f4-8129-5e94af5389b1
+Formatted string: 1*82a651eb-8089-49f4-8129-5e94af5389b1*0**19:meeting_ZDZkNDA4MWYtN2Y2NC00NTMzLTk2MzUtODJkOGUxNGMyNGYw@thread.v2
+Base64 Meeting ID: MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aRFprTkRBNE1XWXROMlkyTkMwME5UTXpMVGsyTXpVdE9ESmtPR1V4TkdNeU5HWXdAdGhyZWFkLnYy
+Reports data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aRFprTkRBNE1XWXROMlkyTkMwME5UTXpMVGsyTXpVdE9ESmtPR1V4TkdNeU5HWXdAdGhyZWFkLnYy')/attendanceReports",
+  "value": [
+    {
+      "id": "9f50f280-e929-4693-a278-7856ad6ed95d",
+      "totalParticipantCount": 1,
+      "meetingStartDateTime": "2025-02-20T18:55:24.949Z",
+      "meetingEndDateTime": "2025-02-20T19:04:44.28Z"
+    },
+    {
+      "id": "0f43f4d0-27c2-4fc5-8020-058c2d100370",
+      "totalParticipantCount": 1,
+      "meetingStartDateTime": "2025-02-20T05:28:12.636Z",
+      "meetingEndDateTime": "2025-02-20T05:31:15.734Z"
+    }
+  ]
+}
+Report ID: 9f50f280-e929-4693-a278-7856ad6ed95d
+Records data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aRFprTkRBNE1XWXROMlkyTkMwME5UTXpMVGsyTXpVdE9ESmtPR1V4TkdNeU5HWXdAdGhyZWFkLnYy')/attendanceReports('9f50f280-e929-4693-a278-7856ad6ed95d')/attendanceRecords",
+  "value": [
+    {
+      "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+      "emailAddress": "ramesh@M365x65088219.onmicrosoft.com",
+      "totalAttendanceInSeconds": 555,
+      "role": "Organizer",
+      "identity": {
+        "@odata.type": "#microsoft.graph.communicationsUserIdentity",
+        "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+        "displayName": "Ramesh",
+        "tenantId": "a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a"
+      },
+      "attendanceIntervals": [
+        {
+          "joinDateTime": "2025-02-20T18:55:28.5958787Z",
+          "leaveDateTime": "2025-02-20T19:04:44.2804863Z",
+          "durationInSeconds": 555
+        }
+      ]
+    }
+  ]
+}
+Analyzing meeting: Sandisk Server Setup
+Meeting data sent to OpenAI: {
+  "subject": "Sandisk Server Setup",
+  "startTime": "2025-02-20T23:30:00.0000000",
+  "endTime": "2025-02-21T00:00:00.0000000",
+  "attendees": [
+    {
+      "duration": 1326
+    }
+  ]
+}
+Analyzing meeting: Sandisk hardisk plate change
+Meeting data sent to OpenAI: {
+  "subject": "Sandisk hardisk plate change",
+  "startTime": "2025-02-20T00:00:00.0000000",
+  "endTime": "2025-02-20T00:30:00.0000000",
+  "attendees": [
+    {
+      "duration": 140
+    }
+  ]
+}
+Analyzing meeting: Sandisk API Test
+Meeting data sent to OpenAI: {
+  "subject": "Sandisk API Test",
+  "startTime": "2025-02-19T04:30:00.0000000",
+  "endTime": "2025-02-19T05:00:00.0000000",
+  "attendees": [
+    {
+      "duration": 555
+    }
+  ]
+}
+Received analysis from Azure OpenAI: Subject: Sandisk hardisk plate change  
+Start Time: 2025-02-20T00:00:00.0000000
+End Time: 2025-02-20T00:30:00.0000000
+Actual Duration: 140 seconds
+Received analysis from Azure OpenAI: Subject: Sandisk Server Setup  
+Start Time: 2025-02-20T23:30:00.0000000
+End Time: 2025-02-21T00:00:00.0000000
+Actual Duration: 1326 seconds
+Received analysis from Azure OpenAI: Subject: Sandisk API Test  
+Start Time: 2025-02-19T04:30:00.0000000
+End Time: 2025-02-19T05:00:00.0000000
+Actual Duration: 555 seconds
+
+
+#task match matching raw data:
+
+      "attendanceIntervals": [
+        {
+          "joinDateTime": "2025-02-20T23:35:10.1698526Z",
+          "leaveDateTime": "2025-02-20T23:37:30.9971535Z",
+          "durationInSeconds": 140
+        }
+      ]
+    }
+  ]
+}
+Decoded URL: https://teams.microsoft.com/l/meetup-join/19:meeting_ZDZkNDA4MWYtN2Y2NC00NTMzLTk2MzUtODJkOGUxNGMyNGYw@thread.v2/0?context={"Tid":"a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a","Oid":"82a651eb-8089-49f4-8129-5e94af5389b1"}  
+Extracted Meeting ID: 19:meeting_ZDZkNDA4MWYtN2Y2NC00NTMzLTk2MzUtODJkOGUxNGMyNGYw@thread.v2
+Extracted Organizer ID: 82a651eb-8089-49f4-8129-5e94af5389b1
+Formatted string: 1*82a651eb-8089-49f4-8129-5e94af5389b1*0**19:meeting_ZDZkNDA4MWYtN2Y2NC00NTMzLTk2MzUtODJkOGUxNGMyNGYw@thread.v2
+Base64 Meeting ID: MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aRFprTkRBNE1XWXROMlkyTkMwME5UTXpMVGsyTXpVdE9ESmtPR1V4TkdNeU5HWXdAdGhyZWFkLnYy
+Reports data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aRFprTkRBNE1XWXROMlkyTkMwME5UTXpMVGsyTXpVdE9ESmtPR1V4TkdNeU5HWXdAdGhyZWFkLnYy')/attendanceReports",
+  "value": [
+    {
+      "id": "9f50f280-e929-4693-a278-7856ad6ed95d",
+      "totalParticipantCount": 1,
+      "meetingStartDateTime": "2025-02-20T18:55:24.949Z",
+      "meetingEndDateTime": "2025-02-20T19:04:44.28Z"
+    },
+    {
+      "id": "0f43f4d0-27c2-4fc5-8020-058c2d100370",
+      "totalParticipantCount": 1,
+      "meetingStartDateTime": "2025-02-20T05:28:12.636Z",
+      "meetingEndDateTime": "2025-02-20T05:31:15.734Z"
+    }
+  ]
+}
+Report ID: 9f50f280-e929-4693-a278-7856ad6ed95d
+Records data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aRFprTkRBNE1XWXROMlkyTkMwME5UTXpMVGsyTXpVdE9ESmtPR1V4TkdNeU5HWXdAdGhyZWFkLnYy')/attendanceReports('9f50f280-e929-4693-a278-7856ad6ed95d')/attendanceRecords",
+  "value": [
+    {
+      "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+      "emailAddress": "ramesh@M365x65088219.onmicrosoft.com",
+      "totalAttendanceInSeconds": 555,
+      "role": "Organizer",
+      "identity": {
+        "@odata.type": "#microsoft.graph.communicationsUserIdentity",
+        "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+        "displayName": "Ramesh",
+        "tenantId": "a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a"
+      },
+      "attendanceIntervals": [
+        {
+          "joinDateTime": "2025-02-20T18:55:28.5958787Z",
+          "leaveDateTime": "2025-02-20T19:04:44.2804863Z",
+          "durationInSeconds": 555
+        }
+      ]
+    }
+  ]
+}
+Found 3 meetings: [
+  'Sandisk Server Setup',
+  'Sandisk hardisk plate change',
+  'Sandisk API Test'
+]
+Processing meetings with AI analysis...
+Processing meeting: Sandisk Server Setup
+Meeting AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAA5igdwAAA= already processed, returning cached result
+Successfully processed meeting: Sandisk Server Setup
+Processing meeting: Sandisk hardisk plate change
+Meeting AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAA5igdyAAA= already processed, returning cached result
+Successfully processed meeting: Sandisk hardisk plate change
+Processing meeting: Sandisk API Test
+Meeting AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAA5egekAAA= already processed, returning cached result
+Successfully processed meeting: Sandisk API Test
+Fetching available tasks...
+Available tasks: [
+  {
+    "id": "16471827",
+    "title": "WD Task",
+    "status": "Unknown"
+  },
+  {
+    "id": "16471829",
+    "title": "Daily Status Report",
+    "status": "Unknown"
+  },
+  {
+    "id": "16471830",
+    "title": "UMG Task",
+    "status": "Unknown"
+  },
+  {
+    "id": "16471831",
+    "title": "Infra  Task",
+    "status": "Unknown"
+  },
+  {
+    "id": "16471832",
+    "title": "Sandisk Task",
+    "status": "Unknown"
+  }
+]
+Matching tasks to meetings...
+Matching tasks for meeting: Sandisk Server Setup
+Fetching tasks from Intervals for user: ramesh@m365x65088219.onmicrosoft.com
+Found 5 tasks in Intervals: 
+- WD Task (16471827)
+- Daily Status Report (16471829)
+- UMG Task (16471830)
+- Infra  Task (16471831)
+- Sandisk Task (16471832)
+Meeting analysis for matching: {
+  "subject": "Sandisk Server Setup",
+  "startTime": "2025-02-20T23:30:00.0000000",
+  "endTime": "2025-02-21T00:00:00.0000000",
+  "duration": 1326,
+  "analysis": {
+    "keyPoints": [],
+    "suggestedCategories": [],
+    "confidence": 0.5,
+    "context": {
+      "patterns": []
+    }
+  },
+  "attendance": {
+    "records": [
+      {
+        "name": "Ramesh",
+        "email": "ramesh@M365x65088219.onmicrosoft.com",
+        "duration": 1326,
+        "role": "Organizer",
+        "attendanceIntervals": [
+          {
+            "joinDateTime": "2025-02-20T23:08:09.117879Z",
+            "leaveDateTime": "2025-02-20T23:30:16.0831491Z",
+            "durationInSeconds": 1326
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "totalDuration": 1326,
+      "averageDuration": 1326,
+      "totalParticipants": 1
+    }
+  }
+}
+Tasks data for matching: [
+  {
+    "id": "16471827",
+    "title": "WD Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471829",
+    "title": "Daily Status Report",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471830",
+    "title": "UMG Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471831",
+    "title": "Infra  Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471832",
+    "title": "Sandisk Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  }
+]
+Generated prompt for OpenAI: You are an AI assistant that matches meetings with relevant tasks. Your goal is to find the most relevant task(s) for a given meeting based on the meeting details and available tasks.
+
+Meeting Details:
+{
+  "subject": "Sandisk Server Setup",
+  "startTime": "2025-02-20T23:30:00.0000000",
+  "endTime": "2025-02-21T00:00:00.0000000",
+  "duration": 1326,
+  "analysis": {
+    "keyPoints": [],
+    "suggestedCategories": [],
+    "confidence": 0.5,
+    "context": {
+      "patterns": []
+    }
+  },
+  "attendance": {
+    "records": [
+      {
+        "name": "Ramesh",
+        "email": "ramesh@M365x65088219.onmicrosoft.com",
+        "duration": 1326,
+        "role": "Organizer",
+        "attendanceIntervals": [
+          {
+            "joinDateTime": "2025-02-20T23:08:09.117879Z",
+            "leaveDateTime": "2025-02-20T23:30:16.0831491Z",
+            "durationInSeconds": 1326
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "totalDuration": 1326,
+      "averageDuration": 1326,
+      "totalParticipants": 1
+    }
+  }
+}
+
+Available Tasks:
+[
+  {
+    "id": "16471827",
+    "title": "WD Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471829",
+    "title": "Daily Status Report",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471830",
+    "title": "UMG Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471831",
+    "title": "Infra  Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471832",
+    "title": "Sandisk Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  }
+]
+
+Analyze the meeting and tasks, then provide your response in the following JSON format:
+
+{
+    "matchedTasks": [
+        {
+            "taskId": "string",
+            "taskTitle": "string",
+            "meetingDetails": {
+                "subject": "string",
+                "startTime": "string",
+                "endTime": "string",
+                "actualDuration": number  // Use the duration from attendance records in seconds
+            },
+            "confidence": number,
+            "reason": "string"
+        }
+    ]
+}
+
+Notes:
+1. Only include tasks with meaningful relevance to the meeting
+2. Confidence should be a number between 0 and 1
+3. Provide clear reasons for each match
+4. Return valid JSON that can be parsed directly
+5. Include all required fields for each task
+6. The actualDuration should be taken from the attendance records and is in seconds
+OpenAI response: ```json
+{
+    "matchedTasks": [
+        {
+            "taskId": "16471832",
+            "taskTitle": "Sandisk Task",
+            "meetingDetails": {
+                "subject": "Sandisk Server Setup",
+                "startTime": "2025-02-20T23:30:00.0000000",
+                "endTime": "2025-02-21T00:00:00.0000000",
+                "actualDuration": 1326
+            },
+            "confidence": 0.9,
+            "reason": "The task title 'Sandisk Task' closely matches the meeting subject 'Sandisk Server Setup', indicating a strong relevance to the meeting's focus."
+        }
+    ]
+}
+```
+Raw OpenAI response: ```json
+{
+    "matchedTasks": [
+        {
+            "taskId": "16471832",
+            "taskTitle": "Sandisk Task",
+            "meetingDetails": {
+                "subject": "Sandisk Server Setup",
+                "startTime": "2025-02-20T23:30:00.0000000",
+                "endTime": "2025-02-21T00:00:00.0000000",
+                "actualDuration": 1326
+            },
+            "confidence": 0.9,
+            "reason": "The task title 'Sandisk Task' closely matches the meeting subject 'Sandisk Server Setup', indicating a strong relevance to the meeting's focus."
+        }
+    ]
+}
+```
+Extracted JSON: {
+    "matchedTasks": [
+        {
+            "taskId": "16471832",
+            "taskTitle": "Sandisk Task",
+            "meetingDetails": {
+                "subject": "Sandisk Server Setup",
+                "startTime": "2025-02-20T23:30:00.0000000",
+                "endTime": "2025-02-21T00:00:00.0000000",
+                "actualDuration": 1326
+            },
+            "confidence": 0.9,
+            "reason": "The task title 'Sandisk Task' closely matches the meeting subject 'Sandisk Server Setup', indicating a strong relevance to the meeting's focus."
+        }
+    ]
+}
+Parsed tasks: [
+  {
+    "taskId": "16471832",
+    "taskTitle": "Sandisk Task",
+    "meetingDetails": {
+      "subject": "Sandisk Server Setup",
+      "startTime": "2025-02-20T23:30:00.0000000",
+      "endTime": "2025-02-21T00:00:00.0000000",
+      "actualDuration": 1326
+    },
+    "confidence": 0.9,
+    "reason": "The task title 'Sandisk Task' closely matches the meeting subject 'Sandisk Server Setup', indicating a strong relevance to the meeting's focus."
+  }
+]
+Parsed matching result: {
+  "meetingSubject": "Sandisk Server Setup",
+  "matchedTasks": [
+    {
+      "taskId": "16471832",
+      "taskTitle": "Sandisk Task",
+      "meetingDetails": {
+        "subject": "Sandisk Server Setup",
+        "startTime": "2025-02-20T23:30:00.0000000",
+        "endTime": "2025-02-21T00:00:00.0000000",
+        "actualDuration": 1326
+      },
+      "confidence": 0.9,
+      "reason": "The task title 'Sandisk Task' closely matches the meeting subject 'Sandisk Server Setup', indicating a strong relevance to the meeting's focus."
+    }
+  ]
+}
+Found 1 matches for meeting: Sandisk Server Setup
+Matching tasks for meeting: Sandisk hardisk plate change
+Fetching tasks from Intervals for user: ramesh@m365x65088219.onmicrosoft.com
+Found 5 tasks in Intervals: 
+- WD Task (16471827)
+- Daily Status Report (16471829)
+- UMG Task (16471830)
+- Infra  Task (16471831)
+- Sandisk Task (16471832)
+Meeting analysis for matching: {
+  "subject": "Sandisk hardisk plate change",
+  "startTime": "2025-02-20T00:00:00.0000000",
+  "endTime": "2025-02-20T00:30:00.0000000",
+  "duration": 140,
+  "analysis": {
+    "keyPoints": [],
+    "suggestedCategories": [],
+    "confidence": 0.5,
+    "context": {
+      "patterns": []
+    }
+  },
+  "attendance": {
+    "records": [
+      {
+        "name": "Ramesh",
+        "email": "ramesh@M365x65088219.onmicrosoft.com",
+        "duration": 140,
+        "role": "Organizer",
+        "attendanceIntervals": [
+          {
+            "joinDateTime": "2025-02-20T23:35:10.1698526Z",
+            "leaveDateTime": "2025-02-20T23:37:30.9971535Z",
+            "durationInSeconds": 140
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "totalDuration": 140,
+      "averageDuration": 140,
+      "totalParticipants": 1
+    }
+  }
+}
+Tasks data for matching: [
+  {
+    "id": "16471827",
+    "title": "WD Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471829",
+    "title": "Daily Status Report",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471830",
+    "title": "UMG Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471831",
+    "title": "Infra  Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471832",
+    "title": "Sandisk Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  }
+]
+Generated prompt for OpenAI: You are an AI assistant that matches meetings with relevant tasks. Your goal is to find the most relevant task(s) for a given meeting based on the meeting details and available tasks.
+
+Meeting Details:
+{
+  "subject": "Sandisk hardisk plate change",
+  "startTime": "2025-02-20T00:00:00.0000000",
+  "endTime": "2025-02-20T00:30:00.0000000",
+  "duration": 140,
+  "analysis": {
+    "keyPoints": [],
+    "suggestedCategories": [],
+    "confidence": 0.5,
+    "context": {
+      "patterns": []
+    }
+  },
+  "attendance": {
+    "records": [
+      {
+        "name": "Ramesh",
+        "email": "ramesh@M365x65088219.onmicrosoft.com",
+        "duration": 140,
+        "role": "Organizer",
+        "attendanceIntervals": [
+          {
+            "joinDateTime": "2025-02-20T23:35:10.1698526Z",
+            "leaveDateTime": "2025-02-20T23:37:30.9971535Z",
+            "durationInSeconds": 140
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "totalDuration": 140,
+      "averageDuration": 140,
+      "totalParticipants": 1
+    }
+  }
+}
+
+Available Tasks:
+[
+  {
+    "id": "16471827",
+    "title": "WD Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471829",
+    "title": "Daily Status Report",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471830",
+    "title": "UMG Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471831",
+    "title": "Infra  Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471832",
+    "title": "Sandisk Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  }
+]
+
+Analyze the meeting and tasks, then provide your response in the following JSON format:
+
+{
+    "matchedTasks": [
+        {
+            "taskId": "string",
+            "taskTitle": "string",
+            "meetingDetails": {
+                "subject": "string",
+                "startTime": "string",
+                "endTime": "string",
+                "actualDuration": number  // Use the duration from attendance records in seconds
+            },
+            "confidence": number,
+            "reason": "string"
+        }
+    ]
+}
+
+Notes:
+1. Only include tasks with meaningful relevance to the meeting
+2. Confidence should be a number between 0 and 1
+3. Provide clear reasons for each match
+4. Return valid JSON that can be parsed directly
+5. Include all required fields for each task
+6. The actualDuration should be taken from the attendance records and is in seconds
+OpenAI response: ```json
+{
+    "matchedTasks": [
+        {
+            "taskId": "16471832",
+            "taskTitle": "Sandisk Task",
+            "meetingDetails": {
+                "subject": "Sandisk hardisk plate change",
+                "startTime": "2025-02-20T00:00:00.0000000",
+                "endTime": "2025-02-20T00:30:00.0000000",
+                "actualDuration": 140
+            },
+            "confidence": 0.9,
+            "reason": "The task title 'Sandisk Task' directly matches the subject of the meeting, 'Sandisk hardisk plate change', indicating a strong relevance. Additionally, the meeting likely pertains to a technical or maintenance activity related to Sandisk, aligning with the task."
+        }
+    ]
+}
+```
+Raw OpenAI response: ```json
+{
+    "matchedTasks": [
+        {
+            "taskId": "16471832",
+            "taskTitle": "Sandisk Task",
+            "meetingDetails": {
+                "subject": "Sandisk hardisk plate change",
+                "startTime": "2025-02-20T00:00:00.0000000",
+                "endTime": "2025-02-20T00:30:00.0000000",
+                "actualDuration": 140
+            },
+            "confidence": 0.9,
+            "reason": "The task title 'Sandisk Task' directly matches the subject of the meeting, 'Sandisk hardisk plate change', indicating a strong relevance. Additionally, the meeting likely pertains to a technical or maintenance activity related to Sandisk, aligning with the task."
+        }
+    ]
+}
+```
+Extracted JSON: {
+    "matchedTasks": [
+        {
+            "taskId": "16471832",
+            "taskTitle": "Sandisk Task",
+            "meetingDetails": {
+                "subject": "Sandisk hardisk plate change",
+                "startTime": "2025-02-20T00:00:00.0000000",
+                "endTime": "2025-02-20T00:30:00.0000000",
+                "actualDuration": 140
+            },
+            "confidence": 0.9,
+            "reason": "The task title 'Sandisk Task' directly matches the subject of the meeting, 'Sandisk hardisk plate change', indicating a strong relevance. Additionally, the meeting likely pertains to a technical or maintenance activity related to Sandisk, aligning with the task."
+        }
+    ]
+}
+Parsed tasks: [
+  {
+    "taskId": "16471832",
+    "taskTitle": "Sandisk Task",
+    "meetingDetails": {
+      "subject": "Sandisk hardisk plate change",
+      "startTime": "2025-02-20T00:00:00.0000000",
+      "endTime": "2025-02-20T00:30:00.0000000",
+      "actualDuration": 140
+    },
+    "confidence": 0.9,
+    "reason": "The task title 'Sandisk Task' directly matches the subject of the meeting, 'Sandisk hardisk plate change', indicating a strong relevance. Additionally, the meeting likely pertains to a technical or maintenance activity related to Sandisk, aligning with the task."
+  }
+]
+Parsed matching result: {
+  "meetingSubject": "Sandisk hardisk plate change",
+  "matchedTasks": [
+    {
+      "taskId": "16471832",
+      "taskTitle": "Sandisk Task",
+      "meetingDetails": {
+        "subject": "Sandisk hardisk plate change",
+        "startTime": "2025-02-20T00:00:00.0000000",
+        "endTime": "2025-02-20T00:30:00.0000000",
+        "actualDuration": 140
+      },
+      "confidence": 0.9,
+      "reason": "The task title 'Sandisk Task' directly matches the subject of the meeting, 'Sandisk hardisk plate change', indicating a strong relevance. Additionally, the meeting likely pertains to a technical or maintenance activity related to Sandisk, aligning with the task."
+    }
+  ]
+}
+Found 1 matches for meeting: Sandisk hardisk plate change
+Matching tasks for meeting: Sandisk API Test
+Fetching tasks from Intervals for user: ramesh@m365x65088219.onmicrosoft.com
+Found 5 tasks in Intervals: 
+- WD Task (16471827)
+- Daily Status Report (16471829)
+- UMG Task (16471830)
+- Infra  Task (16471831)
+- Sandisk Task (16471832)
+Meeting analysis for matching: {
+  "subject": "Sandisk API Test",
+  "startTime": "2025-02-19T04:30:00.0000000",
+  "endTime": "2025-02-19T05:00:00.0000000",
+  "duration": 555,
+  "analysis": {
+    "keyPoints": [],
+    "suggestedCategories": [],
+    "confidence": 0.5,
+    "context": {
+      "patterns": []
+    }
+  },
+  "attendance": {
+    "records": [
+      {
+        "name": "Ramesh",
+        "email": "ramesh@M365x65088219.onmicrosoft.com",
+        "duration": 555,
+        "role": "Organizer",
+        "attendanceIntervals": [
+          {
+            "joinDateTime": "2025-02-20T18:55:28.5958787Z",
+            "leaveDateTime": "2025-02-20T19:04:44.2804863Z",
+            "durationInSeconds": 555
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "totalDuration": 555,
+      "averageDuration": 555,
+      "totalParticipants": 1
+    }
+  }
+}
+Tasks data for matching: [
+  {
+    "id": "16471827",
+    "title": "WD Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471829",
+    "title": "Daily Status Report",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471830",
+    "title": "UMG Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471831",
+    "title": "Infra  Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471832",
+    "title": "Sandisk Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  }
+]
+Generated prompt for OpenAI: You are an AI assistant that matches meetings with relevant tasks. Your goal is to find the most relevant task(s) for a given meeting based on the meeting details and available tasks.
+
+Meeting Details:
+{
+  "subject": "Sandisk API Test",
+  "startTime": "2025-02-19T04:30:00.0000000",
+  "endTime": "2025-02-19T05:00:00.0000000",
+  "duration": 555,
+  "analysis": {
+    "keyPoints": [],
+    "suggestedCategories": [],
+    "confidence": 0.5,
+    "context": {
+      "patterns": []
+    }
+  },
+  "attendance": {
+    "records": [
+      {
+        "name": "Ramesh",
+        "email": "ramesh@M365x65088219.onmicrosoft.com",
+        "duration": 555,
+        "role": "Organizer",
+        "attendanceIntervals": [
+          {
+            "joinDateTime": "2025-02-20T18:55:28.5958787Z",
+            "leaveDateTime": "2025-02-20T19:04:44.2804863Z",
+            "durationInSeconds": 555
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "totalDuration": 555,
+      "averageDuration": 555,
+      "totalParticipants": 1
+    }
+  }
+}
+
+Available Tasks:
+[
+  {
+    "id": "16471827",
+    "title": "WD Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471829",
+    "title": "Daily Status Report",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471830",
+    "title": "UMG Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471831",
+    "title": "Infra  Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": "16471832",
+    "title": "Sandisk Task",
+    "status": "Unknown",
+    "matchingContext": {
+      "isActive": false,
+      "hasPriority": false,
+      "hasDescription": false
+    }
+  }
+]
+
+Analyze the meeting and tasks, then provide your response in the following JSON format:
+
+{
+    "matchedTasks": [
+        {
+            "taskId": "string",
+            "taskTitle": "string",
+            "meetingDetails": {
+                "subject": "string",
+                "startTime": "string",
+                "endTime": "string",
+                "actualDuration": number  // Use the duration from attendance records in seconds
+            },
+            "confidence": number,
+            "reason": "string"
+        }
+    ]
+}
+
+Notes:
+1. Only include tasks with meaningful relevance to the meeting
+2. Confidence should be a number between 0 and 1
+3. Provide clear reasons for each match
+4. Return valid JSON that can be parsed directly
+5. Include all required fields for each task
+6. The actualDuration should be taken from the attendance records and is in seconds
+OpenAI response: ```json
+{
+    "matchedTasks": [
+        {
+            "taskId": "16471832",
+            "taskTitle": "Sandisk Task",
+            "meetingDetails": {
+                "subject": "Sandisk API Test",
+                "startTime": "2025-02-19T04:30:00.0000000",
+                "endTime": "2025-02-19T05:00:00.0000000",
+                "actualDuration": 555
+            },
+            "confidence": 0.8,
+            "reason": "The meeting subject 'Sandisk API Test' closely matches the task title 'Sandisk Task', indicating a strong relevance. Additionally, no other tasks have a clear connection to the meeting details."
+        }
+    ]
+}
+```
+Raw OpenAI response: ```json
+{
+    "matchedTasks": [
+        {
+            "taskId": "16471832",
+            "taskTitle": "Sandisk Task",
+            "meetingDetails": {
+                "subject": "Sandisk API Test",
+                "startTime": "2025-02-19T04:30:00.0000000",
+                "endTime": "2025-02-19T05:00:00.0000000",
+                "actualDuration": 555
+            },
+            "confidence": 0.8,
+            "reason": "The meeting subject 'Sandisk API Test' closely matches the task title 'Sandisk Task', indicating a strong relevance. Additionally, no other tasks have a clear connection to the meeting details."
+        }
+    ]
+}
+```
+Extracted JSON: {
+    "matchedTasks": [
+        {
+            "taskId": "16471832",
+            "taskTitle": "Sandisk Task",
+            "meetingDetails": {
+                "subject": "Sandisk API Test",
+                "startTime": "2025-02-19T04:30:00.0000000",
+                "endTime": "2025-02-19T05:00:00.0000000",
+                "actualDuration": 555
+            },
+            "confidence": 0.8,
+            "reason": "The meeting subject 'Sandisk API Test' closely matches the task title 'Sandisk Task', indicating a strong relevance. Additionally, no other tasks have a clear connection to the meeting details."
+        }
+    ]
+}
+Parsed tasks: [
+  {
+    "taskId": "16471832",
+    "taskTitle": "Sandisk Task",
+    "meetingDetails": {
+      "subject": "Sandisk API Test",
+      "startTime": "2025-02-19T04:30:00.0000000",
+      "endTime": "2025-02-19T05:00:00.0000000",
+      "actualDuration": 555
+    },
+    "confidence": 0.8,
+    "reason": "The meeting subject 'Sandisk API Test' closely matches the task title 'Sandisk Task', indicating a strong relevance. Additionally, no other tasks have a clear connection to the meeting details."
+  }
+]
+Parsed matching result: {
+  "meetingSubject": "Sandisk API Test",
+  "matchedTasks": [
+    {
+      "taskId": "16471832",
+      "taskTitle": "Sandisk Task",
+      "meetingDetails": {
+        "subject": "Sandisk API Test",
+        "startTime": "2025-02-19T04:30:00.0000000",
+        "endTime": "2025-02-19T05:00:00.0000000",
+        "actualDuration": 555
+      },
+      "confidence": 0.8,
+      "reason": "The meeting subject 'Sandisk API Test' closely matches the task title 'Sandisk Task', indicating a strong relevance. Additionally, no other tasks have a clear connection to the meeting details."
+    }
+  ]
+}
+Found 1 matches for meeting: Sandisk API Test
+
+
+#time-entry raw data:
+
+Fetching meetings for user: ramesh@m365x65088219.onmicrosoft.com
+Fetching meetings between: 2025-02-14T05:19:43.774Z and 2025-02-21T05:19:43.774Z
+Fetching meetings from URL: https://graph.microsoft.com/v1.0/users/ramesh@m365x65088219.onmicrosoft.com/events?$filter=start%2FdateTime%20ge%20'2025-02-14T05%3A19%3A43.774Z'%20and%20end%2FdateTime%20le%20'2025-02-21T05%3A19%3A43.774Z'&$select=id,subject,start,end,organizer,attendees,bodyPreview,importance,isAllDay,isCancelled,categories,onlineMeeting&$orderby=start/dateTime desc
+Received meetings data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('ramesh%40m365x65088219.onmicrosoft.com')/events(id,subject,start,end,organizer,attendees,bodyPreview,importance,isAllDay,isCancelled,categories,onlineMeeting)",
+  "value": [
+    {
+      "@odata.etag": "W/\"5HnrQBVBdkuKwlSrqNOikAAAOXiyhw==\"",
+      "id": "AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAA5igdwAAA=",
+      "categories": [],
+      "subject": "Sandisk Server Setup",
+      "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 277 588 441 993\r\nPasscode: CN2SB6i9\r\n________________________________\r\nDial in by phone\r\n+1 872-215-6291,",
+      "importance": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "start": {
+        "dateTime": "2025-02-20T23:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2025-02-21T00:00:00.0000000",
+        "timeZone": "UTC"
+      },
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Ramesh",
+          "address": "ramesh@M365x65088219.onmicrosoft.com"
+        }
+      },
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGJlODRjZWEtMzk4OS00ZTU2LTk5OWMtOTViNGYwYmM0ZWMx%40thread.v2/0?context=%7b%22Tid%22%3a%22a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a%22%2c%22Oid%22%3a%2282a651eb-8089-49f4-8129-5e94af5389b1%22%7d",
+        "conferenceId": "465893486",
+        "tollNumber": "+1 872-215-6291"
+      }
+    },
+    {
+      "@odata.etag": "W/\"5HnrQBVBdkuKwlSrqNOikAAAOXi0ZQ==\"",
+      "id": "AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAA5igdyAAA=",
+      "categories": [],
+      "subject": "Sandisk hardisk plate change",
+      "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 220 571 702 446\r\nPasscode: 8ES2Sx7j\r\n________________________________\r\nDial in by phone\r\n+1 872-215-6291,",
+      "importance": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "start": {
+        "dateTime": "2025-02-20T00:00:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2025-02-20T00:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Ramesh",
+          "address": "ramesh@M365x65088219.onmicrosoft.com"
+        }
+      },
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTk2ZjM1MTMtOGM4ZC00MTIzLTk2NDAtMjRiOTVlNjU3NmVm%40thread.v2/0?context=%7b%22Tid%22%3a%22a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a%22%2c%22Oid%22%3a%2282a651eb-8089-49f4-8129-5e94af5389b1%22%7d",
+        "conferenceId": "775341000",
+        "tollNumber": "+1 872-215-6291"
+      }
+    },
+    {
+      "@odata.etag": "W/\"5HnrQBVBdkuKwlSrqNOikAAAOWk7jQ==\"",
+      "id": "AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAA5egekAAA=",
+      "categories": [],
+      "subject": "Sandisk API Test",
+      "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 240 569 456 929\r\nPasscode: bx3o86co\r\n________________________________\r\nDial in by phone\r\n+1 872-215-6291,",
+      "importance": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "start": {
+        "dateTime": "2025-02-19T04:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2025-02-19T05:00:00.0000000",
+        "timeZone": "UTC"
+      },
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Ramesh",
+          "address": "ramesh@M365x65088219.onmicrosoft.com"
+        }
+      },
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDZkNDA4MWYtN2Y2NC00NTMzLTk2MzUtODJkOGUxNGMyNGYw%40thread.v2/0?context=%7b%22Tid%22%3a%22a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a%22%2c%22Oid%22%3a%2282a651eb-8089-49f4-8129-5e94af5389b1%22%7d",
+        "conferenceId": "58572547",
+        "tollNumber": "+1 872-215-6291"
+      }
+    }
+  ]
+}
+Found 3 meetings from past 7 days: [
+  {
+    subject: 'Sandisk Server Setup',
+    start: '2025-02-20T23:30:00.0000000',
+    end: '2025-02-21T00:00:00.0000000'
+  },
+  {
+    subject: 'Sandisk hardisk plate change',
+    start: '2025-02-20T00:00:00.0000000',
+    end: '2025-02-20T00:30:00.0000000'
+  },
+  {
+    subject: 'Sandisk API Test',
+    start: '2025-02-19T04:30:00.0000000',
+    end: '2025-02-19T05:00:00.0000000'
+  }
+]
+Decoded URL: https://teams.microsoft.com/l/meetup-join/19:meeting_ZGJlODRjZWEtMzk4OS00ZTU2LTk5OWMtOTViNGYwYmM0ZWMx@thread.v2/0?context={"Tid":"a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a","Oid":"82a651eb-8089-49f4-8129-5e94af5389b1"}
+Extracted Meeting ID: 19:meeting_ZGJlODRjZWEtMzk4OS00ZTU2LTk5OWMtOTViNGYwYmM0ZWMx@thread.v2
+Extracted Organizer ID: 82a651eb-8089-49f4-8129-5e94af5389b1
+Formatted string: 1*82a651eb-8089-49f4-8129-5e94af5389b1*0**19:meeting_ZGJlODRjZWEtMzk4OS00ZTU2LTk5OWMtOTViNGYwYmM0ZWMx@thread.v2        
+Base64 Meeting ID: MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aR0psT0RSalpXRXRNems0T1MwMFpUVTJMVGs1T1dNdE9UVmlOR1l3WW1NMFpXTXhAdGhyZWFkLnYy
+Reports data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aR0psT0RSalpXRXRNems0T1MwMFpUVTJMVGs1T1dNdE9UVmlOR1l3WW1NMFpXTXhAdGhyZWFkLnYy')/attendanceReports",
+  "value": [
+    {
+      "id": "1914dad1-610c-4086-9046-fc4d441fd296",
+      "totalParticipantCount": 1,
+      "meetingStartDateTime": "2025-02-20T23:08:05.273Z",
+      "meetingEndDateTime": "2025-02-20T23:30:16.083Z"
+    }
+  ]
+}
+Report ID: 1914dad1-610c-4086-9046-fc4d441fd296
+Records data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aR0psT0RSalpXRXRNems0T1MwMFpUVTJMVGs1T1dNdE9UVmlOR1l3WW1NMFpXTXhAdGhyZWFkLnYy')/attendanceReports('1914dad1-610c-4086-9046-fc4d441fd296')/attendanceRecords",
+  "value": [
+    {
+      "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+      "emailAddress": "ramesh@M365x65088219.onmicrosoft.com",
+      "totalAttendanceInSeconds": 1326,
+      "role": "Organizer",
+      "identity": {
+        "@odata.type": "#microsoft.graph.communicationsUserIdentity",
+        "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+        "displayName": "Ramesh",
+        "tenantId": "a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a"
+      },
+      "attendanceIntervals": [
+        {
+          "joinDateTime": "2025-02-20T23:08:09.117879Z",
+          "leaveDateTime": "2025-02-20T23:30:16.0831491Z",
+          "durationInSeconds": 1326
+        }
+      ]
+    }
+  ]
+}
+Decoded URL: https://teams.microsoft.com/l/meetup-join/19:meeting_NTk2ZjM1MTMtOGM4ZC00MTIzLTk2NDAtMjRiOTVlNjU3NmVm@thread.v2/0?context={"Tid":"a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a","Oid":"82a651eb-8089-49f4-8129-5e94af5389b1"}
+Extracted Meeting ID: 19:meeting_NTk2ZjM1MTMtOGM4ZC00MTIzLTk2NDAtMjRiOTVlNjU3NmVm@thread.v2
+Extracted Organizer ID: 82a651eb-8089-49f4-8129-5e94af5389b1
+Formatted string: 1*82a651eb-8089-49f4-8129-5e94af5389b1*0**19:meeting_NTk2ZjM1MTMtOGM4ZC00MTIzLTk2NDAtMjRiOTVlNjU3NmVm@thread.v2        
+Base64 Meeting ID: MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19OVGsyWmpNMU1UTXRPR000WkMwME1USXpMVGsyTkRBdE1qUmlPVFZsTmpVM05tVm1AdGhyZWFkLnYy
+Reports data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19OVGsyWmpNMU1UTXRPR000WkMwME1USXpMVGsyTkRBdE1qUmlPVFZsTmpVM05tVm1AdGhyZWFkLnYy')/attendanceReports",
+  "value": [
+    {
+      "id": "726f5468-6846-447c-8812-81387c37c02d",
+      "totalParticipantCount": 1,
+      "meetingStartDateTime": "2025-02-20T23:35:05.984Z",
+      "meetingEndDateTime": "2025-02-20T23:37:30.997Z"
+    }
+  ]
+}
+Report ID: 726f5468-6846-447c-8812-81387c37c02d
+Records data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19OVGsyWmpNMU1UTXRPR000WkMwME1USXpMVGsyTkRBdE1qUmlPVFZsTmpVM05tVm1AdGhyZWFkLnYy')/attendanceReports('726f5468-6846-447c-8812-81387c37c02d')/attendanceRecords",
+  "value": [
+    {
+      "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+      "emailAddress": "ramesh@M365x65088219.onmicrosoft.com",
+      "totalAttendanceInSeconds": 140,
+      "role": "Organizer",
+      "identity": {
+        "@odata.type": "#microsoft.graph.communicationsUserIdentity",
+        "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+        "displayName": "Ramesh",
+        "tenantId": "a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a"
+      },
+      "attendanceIntervals": [
+        {
+          "joinDateTime": "2025-02-20T23:35:10.1698526Z",
+          "leaveDateTime": "2025-02-20T23:37:30.9971535Z",
+          "durationInSeconds": 140
+        }
+      ]
+    }
+  ]
+}
+Decoded URL: https://teams.microsoft.com/l/meetup-join/19:meeting_ZDZkNDA4MWYtN2Y2NC00NTMzLTk2MzUtODJkOGUxNGMyNGYw@thread.v2/0?context={"Tid":"a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a","Oid":"82a651eb-8089-49f4-8129-5e94af5389b1"}
+Extracted Meeting ID: 19:meeting_ZDZkNDA4MWYtN2Y2NC00NTMzLTk2MzUtODJkOGUxNGMyNGYw@thread.v2
+Extracted Organizer ID: 82a651eb-8089-49f4-8129-5e94af5389b1
+Formatted string: 1*82a651eb-8089-49f4-8129-5e94af5389b1*0**19:meeting_ZDZkNDA4MWYtN2Y2NC00NTMzLTk2MzUtODJkOGUxNGMyNGYw@thread.v2        
+Base64 Meeting ID: MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aRFprTkRBNE1XWXROMlkyTkMwME5UTXpMVGsyTXpVdE9ESmtPR1V4TkdNeU5HWXdAdGhyZWFkLnYy
+Reports data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aRFprTkRBNE1XWXROMlkyTkMwME5UTXpMVGsyTXpVdE9ESmtPR1V4TkdNeU5HWXdAdGhyZWFkLnYy')/attendanceReports",
+  "value": [
+    {
+      "id": "9f50f280-e929-4693-a278-7856ad6ed95d",
+      "totalParticipantCount": 1,
+      "meetingStartDateTime": "2025-02-20T18:55:24.949Z",
+      "meetingEndDateTime": "2025-02-20T19:04:44.28Z"
+    },
+    {
+      "id": "0f43f4d0-27c2-4fc5-8020-058c2d100370",
+      "totalParticipantCount": 1,
+      "meetingStartDateTime": "2025-02-20T05:28:12.636Z",
+      "meetingEndDateTime": "2025-02-20T05:31:15.734Z"
+    }
+  ]
+}
+Report ID: 9f50f280-e929-4693-a278-7856ad6ed95d
+Records data: {
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('82a651eb-8089-49f4-8129-5e94af5389b1')/onlineMeetings('MSo4MmE2NTFlYi04MDg5LTQ5ZjQtODEyOS01ZTk0YWY1Mzg5YjEqMCoqMTk6bWVldGluZ19aRFprTkRBNE1XWXROMlkyTkMwME5UTXpMVGsyTXpVdE9ESmtPR1V4TkdNeU5HWXdAdGhyZWFkLnYy')/attendanceReports('9f50f280-e929-4693-a278-7856ad6ed95d')/attendanceRecords",
+  "value": [
+    {
+      "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+      "emailAddress": "ramesh@M365x65088219.onmicrosoft.com",
+      "totalAttendanceInSeconds": 555,
+      "role": "Organizer",
+      "identity": {
+        "@odata.type": "#microsoft.graph.communicationsUserIdentity",
+        "id": "82a651eb-8089-49f4-8129-5e94af5389b1",
+        "displayName": "Ramesh",
+        "tenantId": "a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a"
+      },
+      "attendanceIntervals": [
+        {
+          "joinDateTime": "2025-02-20T18:55:28.5958787Z",
+          "leaveDateTime": "2025-02-20T19:04:44.2804863Z",
+          "durationInSeconds": 555
+        }
+      ]
+    }
+  ]
+}
+Found 3 meetings: [
+  'Sandisk Server Setup',
+  'Sandisk hardisk plate change',
+  'Sandisk API Test'
+]
+Processing meetings with AI analysis...
+Processing meeting: Sandisk Server Setup
+Meeting AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAA5igdwAAA= already processed, returning cached result
+Successfully processed meeting: Sandisk Server Setup
+Processing meeting: Sandisk hardisk plate change
+Meeting AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAA5igdyAAA= already processed, returning cached result
+Successfully processed meeting: Sandisk hardisk plate change
+Processing meeting: Sandisk API Test
+Meeting AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAA5egekAAA= already processed, returning cached result
+Successfully processed meeting: Sandisk API Test
+Filtering out already processed meetings...
+Starting comparison of 3 meetings against posted meetings...
+Processing batch 1 of 1
+Batch 1 results: { total: 3, duplicates: 3, unique: 0 }
+Filtered 3 duplicate meetings
+Proceeding with 0 unique meetings
+Found 0 unique meetings to process

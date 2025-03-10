@@ -1,0 +1,32 @@
+{
+  "commonPatterns": [
+    {
+      "meeting": ["wd", "western"],
+      "task": ["wd", "western"],
+      "description": "Western Digital related matches"
+    },
+    {
+      "meeting": ["umg", "universal"],
+      "task": ["umg", "universal"],
+      "description": "Universal Music Group related matches"
+    },
+    {
+      "meeting": ["infra", "infrastructure"],
+      "task": ["infra", "infrastructure"],
+      "description": "Infrastructure related matches"
+    },
+    {
+      "meeting": ["status", "daily"],
+      "task": ["status", "daily"],
+      "description": "Daily status meetings"
+    }
+  ],
+  "matchingRules": [
+    "Look for keyword matches between the meeting title and task details",
+    "Consider project and module names in the matching",
+    "Account for abbreviations and common variations",
+    "Consider the context and purpose of the meeting",
+    "If no clear match is found, return null"
+  ],
+  "promptTemplate": "Match this meeting with the most relevant task. Pay special attention to keywords and context.\n\nMeeting Title: {meetingTitle}\n\nAvailable Tasks:\n{taskList}\n\nImportant matching rules:\n{matchingRules}\n\nReturn a JSON object with this format:\n{\n  \"matchedTaskTitle\": \"EXACT task title from the list or null\",\n  \"confidence\": 1.0,\n  \"reason\": \"detailed explanation of why this task was matched\"\n}"
+} 

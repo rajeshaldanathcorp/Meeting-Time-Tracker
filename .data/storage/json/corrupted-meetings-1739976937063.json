@@ -1,0 +1,196 @@
+[
+  {
+    "@odata.etag": "W/\"5HnrQBVBdkuKwlSrqNOikAAAMsloCQ==\"",
+    "id": "AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAAy2C1kAAA=",
+    "categories": [],
+    "subject": "Infra Morning Test",
+    "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 289 980 283 707\r\nPasscode: CK6q5e7d\r\n________________________________\r\nDial in by phone\r\n+1 872-215-6291,",
+    "importance": "normal",
+    "isAllDay": false,
+    "isCancelled": false,
+    "start": {
+      "dateTime": "2025-02-13T05:00:00.0000000",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-02-13T05:30:00.0000000",
+      "timeZone": "UTC"
+    },
+    "attendees": [],
+    "organizer": {
+      "emailAddress": {
+        "name": "Ramesh",
+        "address": "ramesh@M365x65088219.onmicrosoft.com"
+      }
+    },
+    "onlineMeeting": {
+      "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzgwODI2MDAtOGUyZS00Y2Y4LTg0ZmQtYmM0YzcwNTUyMzk2%40thread.v2/0?context=%7b%22Tid%22%3a%22a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a%22%2c%22Oid%22%3a%2282a651eb-8089-49f4-8129-5e94af5389b1%22%7d",
+      "conferenceId": "557070100",
+      "tollNumber": "+1 872-215-6291"
+    },
+    "analysis": {
+      "meetingId": "AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAAy2C1kAAA=",
+      "relevanceScore": 0.5,
+      "keyPoints": [],
+      "suggestedCategories": [],
+      "confidence": 0.5,
+      "context": {
+        "patterns": []
+      }
+    },
+    "attendance": {
+      "records": [
+        {
+          "name": "Ramesh",
+          "email": "ramesh@M365x65088219.onmicrosoft.com",
+          "duration": 48,
+          "role": "Organizer",
+          "attendanceIntervals": [
+            {
+              "joinDateTime": "2025-02-13T04:41:40.1310402Z",
+              "leaveDateTime": "2025-02-13T04:42:28.8808951Z",
+              "durationInSeconds": 48
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalDuration": 48,
+        "averageDuration": 48,
+        "totalParticipants": 1
+      }
+    },
+    "lastProcessed": "2025-02-19T14:49:37.306Z",
+    "userId": "ramesh@m365x65088219.onmicrosoft.com"
+  },
+  {
+    "@odata.etag": "W/\"5HnrQBVBdkuKwlSrqNOikAAAMsln3g==\"",
+    "id": "AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAAy2C1jAAA=",
+    "categories": [],
+    "subject": "Sandisk Pre-meeting",
+    "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 244 920 692 606\r\nPasscode: Dn2ea9xE\r\n________________________________\r\nDial in by phone\r\n+1 872-215-6291,",
+    "importance": "normal",
+    "isAllDay": false,
+    "isCancelled": false,
+    "start": {
+      "dateTime": "2025-02-13T04:30:00.0000000",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-02-13T05:00:00.0000000",
+      "timeZone": "UTC"
+    },
+    "attendees": [],
+    "organizer": {
+      "emailAddress": {
+        "name": "Ramesh",
+        "address": "ramesh@M365x65088219.onmicrosoft.com"
+      }
+    },
+    "onlineMeeting": {
+      "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmQ2NjFkZWMtYTlhOC00NzY5LTk0M2EtZTJkZWFiYzVjZmI4%40thread.v2/0?context=%7b%22Tid%22%3a%22a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a%22%2c%22Oid%22%3a%2282a651eb-8089-49f4-8129-5e94af5389b1%22%7d",
+      "conferenceId": "383935060",
+      "tollNumber": "+1 872-215-6291"
+    },
+    "analysis": {
+      "meetingId": "AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAAy2C1jAAA=",
+      "relevanceScore": 0.5,
+      "keyPoints": [],
+      "suggestedCategories": [],
+      "confidence": 0.5,
+      "context": {
+        "patterns": []
+      }
+    },
+    "attendance": {
+      "records": [
+        {
+          "name": "Ramesh",
+          "email": "ramesh@M365x65088219.onmicrosoft.com",
+          "duration": 46,
+          "role": "Organizer",
+          "attendanceIntervals": [
+            {
+              "joinDateTime": "2025-02-13T04:23:31.0104289Z",
+              "leaveDateTime": "2025-02-13T04:24:17.1712046Z",
+              "durationInSeconds": 46
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalDuration": 46,
+        "averageDuration": 46,
+        "totalParticipants": 1
+      }
+    },
+    "lastProcessed": "2025-02-19T14:49:37.726Z",
+    "userId": "ramesh@m365x65088219.onmicrosoft.com"
+  },
+  {
+    "@odata.etag": "W/\"5HnrQBVBdkuKwlSrqNOikAAAMsloig==\"",
+    "id": "AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAAy2C1mAAA=",
+    "categories": [],
+    "subject": "Daily Testing",
+    "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 284 206 017 222\r\nPasscode: Lk3p2iK6\r\n________________________________\r\nDial in by phone\r\n+1 872-215-6291,",
+    "importance": "normal",
+    "isAllDay": false,
+    "isCancelled": false,
+    "start": {
+      "dateTime": "2025-02-13T05:00:00.0000000",
+      "timeZone": "UTC"
+    },
+    "end": {
+      "dateTime": "2025-02-13T05:30:00.0000000",
+      "timeZone": "UTC"
+    },
+    "attendees": [],
+    "organizer": {
+      "emailAddress": {
+        "name": "Ramesh",
+        "address": "ramesh@M365x65088219.onmicrosoft.com"
+      }
+    },
+    "onlineMeeting": {
+      "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGRmMGQ3ZjctOWYwZi00ZDJjLWJjZGMtNzk5MDg0ZmFmY2Ni%40thread.v2/0?context=%7b%22Tid%22%3a%22a5ae9ae1-3c47-4b70-b92c-ac3a0efffc6a%22%2c%22Oid%22%3a%2282a651eb-8089-49f4-8129-5e94af5389b1%22%7d",
+      "conferenceId": "412273550",
+      "tollNumber": "+1 872-215-6291"
+    },
+    "analysis": {
+      "meetingId": "AAMkADE2ODQxNmM0LWZlMmUtNGY1MS05YTIyLThiMTI1NWQ5Y2ViOABGAAAAAABgkP_KUtpYT6406GAHW_ssBwDkeetAFUF2S4rCVKuo06KQAAAAAAENAADkeetAFUF2S4rCVKuo06KQAAAy2C1mAAA=",
+      "relevanceScore": 0.5,
+      "keyPoints": [],
+      "suggestedCategories": [],
+      "confidence": 0.5,
+      "context": {
+        "patterns": []
+      }
+    },
+    "attendance": {
+      "records": [
+        {
+          "name": "Ramesh",
+          "email": "ramesh@M365x65088219.onmicrosoft.com",
+          "duration": 228,
+          "role": "Organizer",
+          "attendanceIntervals": [
+            {
+              "joinDateTime": "2025-02-13T04:56:55.9480781Z",
+              "leaveDateTime": "2025-02-13T05:00:44.5876624Z",
+              "durationInSeconds": 228
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalDuration": 228,
+        "averageDuration": 228,
+        "totalParticipants": 1
+      }
+    },
+    "lastProcessed": "2025-02-19T14:49:38.596Z",
+    "userId": "ramesh@m365x65088219.onmicrosoft.com"
+  }
+]osoft.com"
+  }
+]

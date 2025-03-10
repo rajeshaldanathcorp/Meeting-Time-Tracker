@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "userId": "ramesh@m365x65088219.onmicrosoft.com",
+      "email": "ramesh@m365x65088219.onmicrosoft.com",
+      "intervalsApiKey": "3d0i240g8pf",
+      "lastSync": "2025-03-07T05:54:15.808Z"
+    },
+    {
+      "userId": "vijay@m365x65088219.onmicrosoft.com",
+      "email": "vijay@m365x65088219.onmicrosoft.com",
+      "intervalsApiKey": "1lk81z2y709",
+      "lastSync": "2025-03-07T14:42:27.411Z"
+    },
+    {
+      "userId": "rajesh.alda@nathcorp.com",
+      "email": "rajesh.alda@nathcorp.com",
+      "intervalsApiKey": "9bf2smemqha",
+      "lastSync": "2025-01-20T19:09:47.297Z"
+    },
+    {
+      "userId": "neha@m365x65088219.onmicrosoft.com",
+      "email": "neha@m365x65088219.onmicrosoft.com",
+      "intervalsApiKey": "4e33dn74hbz",
+      "lastSync": "2025-02-03T20:00:50.112Z"
+    },
+    {
+      "userId": "vishalkumar@m365x65088219.onmicrosoft.com",
+      "email": "vishalkumar@m365x65088219.onmicrosoft.com",
+      "intervalsApiKey": "4g9nadsxj9e",
+      "lastSync": "2025-03-07T11:07:20.811Z"
+    }
+  ],
+  "postedMeetings": []
+}

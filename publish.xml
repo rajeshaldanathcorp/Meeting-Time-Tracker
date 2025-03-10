@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile 
+    profileName="meetingtracker - Web Deploy" 
+    publishMethod="MSDeploy" 
+    publishUrl="meetingtracker.scm.azurewebsites.net:443" 
+    msdeploySite="meetingtracker" 
+    userName="$meetingtracker" 
+    userPWD="o5ng48xvg8vhYAYBeMoxgn8x5Yr8YuBl77lg3i4cB0lEtouifhf7L7Qr8Yrn" 
+    destinationAppUrl="https://meetingtracker.azurewebsites.net" 
+    SQLServerDBConnectionString="" 
+    mySQLDBConnectionString="" 
+    hostingProviderForumLink="" 
+    controlPanelLink="https://portal.azure.com" 
+    webSystem="WebSites">
+    <databases />
+  </publishProfile>
+</publishData> 
