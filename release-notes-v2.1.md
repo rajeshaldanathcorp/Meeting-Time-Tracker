@@ -247,7 +247,7 @@ The following environment variables must be configured:
 1. Clone the repository
 2. Install dependencies:
    ```
-   npm install
+   npm install --force
    ```
 3. Configure environment variables in `.env.local`:
    ```
